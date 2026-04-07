@@ -1,0 +1,125 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Parent background */
+.parent {
+  min-height: 100vh;
+  background: #0f0f0f; /* black */
+  display: flex;
+  justify-content: flex-start; 
+  align-items: flex-start;
+  padding: 40px;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+/* Card */
+.card {
+  height: 350px;
+  width: 320px;
+  background: #fff;
+  border-radius: 20px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+/* Top Section */
+.top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.top img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  border: 1px solid #ddd;
+  padding : 2px;
+  margin: 7px;
+}
+
+.top button {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  border: none;
+  background: #f1f1f1;
+  padding: 6px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  font-size: 12px;
+}
+
+/* Center Section */
+.centre {
+  margin-top: 15px;
+}
+
+.centre h3 {
+  font-size: 14px;
+  color: #333;
+}
+
+.centre h3 span {
+  color: gray;
+  font-size: 12px;
+  margin-left: 5px;
+}
+
+.centre h2 {
+  margin-top: 8px;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+/* Tags */
+.tag {
+  display: flex;
+  gap: 8px;
+  margin-top: 10px;
+}
+
+.tag h4 {
+  background: #f1f1f1;
+  padding: 5px 10px;
+  border-radius: 8px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+/* Bottom Section */
+.bottom {
+  margin-top: 20px;
+  padding-top: 15px;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.bottom h3 {
+  font-size: 16px;
+  font-weight: 600;
+}
+
+.bottom p {
+  font-size: 12px;
+  color: gray;
+}
+
+.bottom button {
+  background: #111;
+  color: white;
+  border: none;
+  padding: 8px 14px;
+  border-radius: 10px;
+  cursor: pointer;
+  font-size: 12px;
+}
